@@ -29,12 +29,20 @@
 
         /* Styles for the job card */
         .job-card {
+            height:300px ;
+            width: 500px;
             background-color: #ffffff;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 20px;
             margin: 20px 0;
             transition: box-shadow 0.3s ease;
+            display: inline-flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            text-align: left;
+            
         }
         .job-card:hover {
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -43,9 +51,11 @@
             margin-top: 0;
             color: #007BFF;
         }
-        .job-card p {
+        /* do texts in on lene in job card */
+        .job-card p strong{
             margin: 10px 0;
             color: #555;
+
         }
         .job-card ul {
             list-style-type: none;
@@ -94,3 +104,5 @@
     </main>
 </body>
 </html>
+
+make this responsive using flex box or flex
