@@ -12,7 +12,7 @@
     <header>
         <div>
             <container>
-                <h1 class="text-center"><b>Job Portal Web App by DhananJay</b></h1>
+                <h1 class="text-center"><b>Job Portal Web App by Jay</b></h1>
                 <ul>
                     <li><p><a href="home">Home</a></p></li>
                     <li><p><a href="viewalljobs">All Jobs</a></p></li>

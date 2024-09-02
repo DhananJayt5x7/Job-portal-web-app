@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ page import="java.util.List" %>
-<%@ page import="com.jay.jobportal.Model.JobPost" %>
-<%@ page import="com.jay.jobportal.Repository.JobRepo" %>
+<%@ page import="com.jay.jobapp.Model.JobPost" %>
+<%@ page import="com.jay.jobapp.Repo.JobRepo" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@page isELIgnored="false" %>
 <!DOCTYPE html>

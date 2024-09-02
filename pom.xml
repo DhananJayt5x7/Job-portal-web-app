@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.jay</groupId>
-	<artifactId>jobportal</artifactId>
+	<artifactId>jobapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>jobportal</name>
+	<name>jobapp</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>

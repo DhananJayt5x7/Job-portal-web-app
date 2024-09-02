@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ page import="java.util.List" %>
-<%@ page import="com.jay.jobportal.Model.JobPost" %>
-<%@ page import="com.jay.jobportal.Repository.JobRepo" %>
+<%@ page import="com.jay.jobapp.Model.JobPost" %>
+<%@ page import="com.jay.jobapp.Repo.JobRepo" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,6 +17,7 @@
         <div class="main">
             <h2>Here are all jobs</h2>
             <% 
+                // Assuming `jobPosts` is passed to this JSP page as a request attribute
                 List<JobPost> jobPosts = (List<JobPost>) request.getAttribute("jobPosts"); 
                 
                 if (jobPosts != null) {
