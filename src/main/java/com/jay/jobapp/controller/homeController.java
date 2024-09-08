@@ -1,5 +1,6 @@
 package com.jay.jobapp.controller;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,6 +18,7 @@ public class homeController {
     private JobService service;
     @RequestMapping({"/","/home"})
     public String index() {
+        service.load();
         return "home";
     }
     @GetMapping("/viewalljobs")
